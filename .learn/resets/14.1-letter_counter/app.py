@@ -3,13 +3,6 @@ par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget bib
 counts = {}
 
 # Your code here
-for s in par:
-    if s.lower() in counts:
-        counts[s.lower()] += 1
-    elif s.lower() == " ":
-        pass
-    else:
-        counts[s.lower()] = 1
 
 
 print(counts)

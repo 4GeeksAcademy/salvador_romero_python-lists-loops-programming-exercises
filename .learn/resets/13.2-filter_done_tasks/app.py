@@ -11,7 +11,4 @@ tasks = [
 
 
 # Your code here
-def comprobar_tarea(item):
-	return item["done"] == True
 
-print(list(filter(comprobar_tarea,tasks)))

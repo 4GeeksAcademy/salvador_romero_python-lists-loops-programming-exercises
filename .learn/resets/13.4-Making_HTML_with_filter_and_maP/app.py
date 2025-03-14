@@ -10,9 +10,3 @@ all_colors = [
 
 # Your code here
 
-def filter_colors(item):
-    return item['sexy']
-def generate_li(item):
-    return f"<li>{item['label']}</li>"
-colors_filtered = (list(filter(filter_colors,all_colors)))
-print(list(map(generate_li,colors_filtered)))
